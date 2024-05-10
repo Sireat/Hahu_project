@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Homepage</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="output.css" rel="stylesheet">
+   <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+</head>
+<body class="bg-gray-100">
+    <header class="flex justify-between items-center bg-white py-4 px-8 shadow-md">
+        <!-- Google Logo -->
+        <img src="image/googlelogo.png" alt="Google" class="h-10">
+
+        <!-- Search Bar -->
+        <div class="relative">
+            <input type="text" class="border border-gray-300 rounded-full py-2 px-4 focus:outline-none focus:border-blue-500 w-72" placeholder="Search Google or type a URL">
+            <button class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-600 hover:text-black">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.5 15.5L20 20m-4.5-5.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"></path></svg>
+            </button>
+        </div>
+
+        <!-- Sign In Button -->
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600">Sign In</button>
+    </header>
+
+    <!-- Main Content (Search Results) -->
+    <main class="container mx-auto mt-8">
+        <p style="text-align: center;">Sample search results could be added here</p>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-600 text-sm mt-8">
+        &copy; 2024 Google. All rights reserved.
+    </footer>
+</body>
+</html>
