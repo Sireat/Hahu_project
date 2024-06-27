@@ -1,0 +1,12 @@
+{
+  "name": "back_end",
+  "version": "1.0.0",
+  "description": "this is the first version",
+  "main": "main.go",
+  "scripts": {
+    "test": "go test ./..."
+  },
+  "author": "Sireat",
+  "license": "ISC",
+  "keywords": []
+}

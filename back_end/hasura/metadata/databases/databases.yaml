@@ -1,0 +1,8 @@
+- name: hahudb
+  kind: postgres
+  configuration:
+    connection_info:
+      database_url: postgres://sireat:111111@postgres:5432/hahudb
+      isolation_level: read-committed
+      use_prepared_statements: false
+  tables: "!include hahudb/tables/tables.yaml"
